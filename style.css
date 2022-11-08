@@ -78,3 +78,13 @@ header {
 .main-header button {
   width: 250px;
 }
+
+.header-text {
+  font-size: 1.1rem;
+  text-align: center;
+}
+
+.header-text p {
+  width: 70%;
+  margin: 40px auto;
+}
