@@ -53,6 +53,11 @@ nav li:hover {
   padding: 8px 12px;
   background: lightgray;
   border-radius: 20px;
+  border: 1px solid transparent;
+}
+
+#language:hover {
+  border: 1px solid rgb(95, 6, 95);
 }
 
 header {
