@@ -141,3 +141,67 @@ header {
 .list-icon-part button {
   width: 200px;
 }
+
+/* =========================== NEWS PART =========================== */
+
+.news-part {
+  width: 75%;
+  margin: 50px auto;
+}
+
+.header-news {
+  display: grid;
+  grid-template-columns: 70% 30%;
+  padding: 20px 0;
+}
+
+.right-part {
+  margin: auto 0;
+}
+
+.right-part button {
+  color: black;
+  border: 1px solid black;
+  width: 200px;
+}
+
+.right-part button:hover {
+  color: rgb(38, 38, 38);
+  border: 1px solid rgb(38, 38, 38);
+}
+
+.left-part h2 {
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-size: 1rem;
+}
+
+.left-part p {
+  font-size: 0.7rem;
+  padding-top: 5px;
+}
+
+.main-news-container {
+  display: grid;
+  grid-template-columns: 33% 33% 33%;
+  margin-top: 50px;
+}
+.mn-container-part {
+  width: 70%;
+}
+
+.main-news-container h4 {
+  font-size: 0.8rem;
+}
+
+.main-news-container p {
+  font-size: 0.7rem;
+}
+
+.link a {
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 0.7rem;
+  letter-spacing: 2px;
+  color: rgb(95, 6, 95);
+}
