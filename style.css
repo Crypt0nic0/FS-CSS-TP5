@@ -182,20 +182,28 @@ header {
 }
 
 .main-news-container {
-  display: grid;
-  grid-template-columns: 33% 33% 33%;
-  margin-top: 50px;
+  display: flex;
+  justify-content: space-between;
+  margin: 50px auto;
+  width: 75%;
 }
 .mn-container-part {
-  width: 70%;
+  width: 33%;
+  padding-right: 50px;
+  display: flex;
+  flex-direction: column;
+  height: 400px;
+  position: relative;
 }
 
 .main-news-container h4 {
   font-size: 0.8rem;
+  padding-top: 10px;
 }
 
 .main-news-container p {
   font-size: 0.7rem;
+  padding-top: 10px;
 }
 
 .link a {
@@ -204,4 +212,24 @@ header {
   font-size: 0.7rem;
   letter-spacing: 2px;
   color: rgb(95, 6, 95);
+  position: absolute;
+  bottom: 0;
+}
+
+/* =========================== NEWS PART =========================== */
+
+footer {
+  background: rgb(26, 26, 26);
+  color: rgb(234, 232, 232);
+  text-transform: uppercase;
+  text-align: center;
+  padding: 20px 0;
+}
+
+footer ul {
+  padding-top: 30px;
+  display: flex;
+  justify-content: space-between;
+  width: 75%;
+  margin: auto;
 }
