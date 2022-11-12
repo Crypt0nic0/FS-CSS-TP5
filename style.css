@@ -320,3 +320,68 @@ footer ul {
   width: 75%;
   margin: auto;
 }
+
+@media screen and (max-width: 799px) {
+  nav {
+    display: none;
+  }
+
+  .main-header h1 {
+    font-size: 2rem;
+  }
+
+  .main-header button {
+    width: 400px;
+    font-size: 1.2rem;
+  }
+
+  .header-text p {
+    width: 90%;
+  }
+
+  .icon-part-container {
+    flex-direction: column;
+    height: auto;
+    width: 100%;
+  }
+
+  .list-icon-part {
+    padding: 25px 0;
+  }
+  .list-icon-part h3 {
+    padding-top: 10px;
+  }
+
+  .list-icon-part p {
+    padding-top: 10px;
+    font-size: 1rem;
+  }
+
+  .list-icon-part button {
+    margin-top: 20px;
+  }
+
+  .main-news-container {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .mn-container-part {
+    width: 100%;
+    align-items: center;
+  }
+
+  .mn-container-part h4 {
+    font-size: 1.2rem;
+  }
+
+  .mn-container-part p {
+    text-align: left;
+    font-size: 0.9rem;
+  }
+
+  .contact {
+    display: none;
+  }
+}
