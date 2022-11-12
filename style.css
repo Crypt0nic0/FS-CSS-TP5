@@ -185,7 +185,6 @@ header {
   display: flex;
   justify-content: space-between;
   margin: 50px auto;
-  width: 75%;
 }
 .mn-container-part {
   width: 33%;
@@ -225,6 +224,56 @@ header {
 
 .contact-container {
   padding: 20px 0;
+}
+
+.contact-list {
+  display: grid;
+  grid-template-columns: 25% 25% 25% 25%;
+  width: 100%;
+  padding: 20px 0px;
+}
+
+#contact-img {
+  text-align: center;
+}
+
+.list {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.list p {
+  font-size: 0.8rem;
+  width: 70%;
+}
+
+.list h5 {
+  text-transform: uppercase;
+  font-size: 1rem;
+  padding: 10px 0;
+}
+
+.infos-p {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.list a {
+  font-size: 0.8rem;
+  text-decoration: none;
+}
+
+.footer-logos {
+  display: flex;
+  width: 75%;
+  justify-content: space-around;
+  padding: 10px 0;
+}
+.copyright {
+  font-size: 0.8rem;
 }
 
 .contact-medias {
