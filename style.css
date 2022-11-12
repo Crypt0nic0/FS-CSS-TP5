@@ -216,7 +216,45 @@ header {
   bottom: 0;
 }
 
-/* =========================== NEWS PART =========================== */
+/* =========================== CONTACT PART =========================== */
+
+.contact {
+  width: 75%;
+  margin: auto;
+}
+
+.contact-container {
+  padding: 20px 0;
+}
+
+.contact-medias {
+  border-top: 2px solid lightgray;
+  padding-top: 15px;
+  display: flex;
+  width: 100%;
+}
+.medias-text {
+  width: 30%;
+}
+
+.medias-text h3 {
+  text-transform: uppercase;
+  font-size: 1rem;
+}
+
+.medias-text p {
+  font-size: 0.8rem;
+  padding-top: 10px;
+}
+
+.medias-logos {
+  width: 70%;
+  display: flex;
+  justify-content: space-between;
+  margin: auto;
+}
+
+/* =========================== FOOTER PART =========================== */
 
 footer {
   background: rgb(26, 26, 26);
