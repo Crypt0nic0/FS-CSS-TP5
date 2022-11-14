@@ -1,3 +1,5 @@
+/* VERSION PERSO
+
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;500&display=swap");
 
 * {
@@ -26,7 +28,6 @@ button:hover {
   border: 1px solid white;
 }
 
-/* =========================== NAV =========================== */
 
 nav {
   padding: 13px 0px;
@@ -62,7 +63,6 @@ nav li:hover {
   border: 1px solid rgb(95, 6, 95);
 }
 
-/* =========================== HEADER =========================== */
 
 header {
   background: url("./assets/img/bg.jpg") center;
@@ -88,7 +88,6 @@ header {
   width: 250px;
 }
 
-/* =========================== HEADER TEXT =========================== */
 
 .header-text {
   font-size: 1.1rem;
@@ -100,7 +99,6 @@ header {
   margin: 40px auto;
 }
 
-/* =========================== ICON PART =========================== */
 
 .icon-part {
   background: rgb(26, 26, 26);
@@ -142,7 +140,6 @@ header {
   width: 200px;
 }
 
-/* =========================== NEWS PART =========================== */
 
 .news-part {
   width: 75%;
@@ -215,7 +212,6 @@ header {
   bottom: 0;
 }
 
-/* =========================== CONTACT PART =========================== */
 
 .contact {
   width: 75%;
@@ -303,7 +299,6 @@ header {
   margin: auto;
 }
 
-/* =========================== FOOTER PART =========================== */
 
 footer {
   background: rgb(26, 26, 26);
@@ -385,3 +380,5 @@ footer ul {
     display: none;
   }
 }
+
+*/
